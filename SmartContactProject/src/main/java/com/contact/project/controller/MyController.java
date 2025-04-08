@@ -34,7 +34,7 @@ public class MyController
 	public String homeHandler(Model model)
 	{
 		model.addAttribute("title","Home Smart Contact Manager");
-		return "home";
+		return "index";
 	}
 	@GetMapping("/about")
 	public String aboutHandler()
